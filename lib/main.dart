@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:studentpassbhu/login.dart';
-import 'package:studentpassbhu/signup.dart';
-import 'package:studentpassbhu/welcomescreen.dart';
+// import 'package:studentpassbhu/login.dart';
+// import 'package:studentpassbhu/signup.dart';
+// import 'package:studentpassbhu/welcomescreen.dart';
+
+import 'Home.dart';
 
 void main() {
   runApp(MyApp());
@@ -23,7 +25,7 @@ void main() {
 
        debugShowCheckedModeBanner: false,
        title: 'student pass',
-       home:  signup(),
+       home:  HomeStudent(),
      );
    }
  }
